@@ -1,23 +1,55 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet"type="text/css"href="css/c.css">/o        <title>DAYS OF THE WEEK PROGRAM</title>
-    </head>
-    <body>
-        <div class="calc">
-        <h1>A PROGRAM TO COMPUTE DAYS </h1>
-        <form>
-            Day:<input type="text"id="d">
-            
-            Month:<input type="text"id="m">
-            
-            year:<input type="text"id="y">
-            
-                <button onclick="compute()">Compute</button>
-            
-            
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width"=device-width,intial-scale=1.0">
+    <title>A Program to generate akan names</title>
+    
+  </head>
+  <body>
+    
+      <div class="container">
+        <h1>APROGRAM TO GENERATE AKAN NAMES <center>BASING ON THE DATE OF BIRTH</center></h1>
+        <hr>
+       
+        <form class="myform" onsubmit="return getAkanName()">
+          <label for="year-of-birth">
+            Year:
+            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+          </label>
+          <label for="month-of-birth">
+            Month:
+            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+          </label>
+          <label for="day-of-birth">
+            Day:
+            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+          </label>
+          <br>
+          <label for="gender">
+            <p>Select your gender: </p>
+            Male
+            <input id="male-input" type="radio" name="gender" value="male" required>
+            Female
+            <input id="female-input" type="radio" name="gender" value="female" required>
+
+          </label>
+          <br><br>
+          <input id="get-name" type="submit" name="" value="Generate name">
+          <br><br>
+        </form>
+        <form onsubmit="return clearInput()">
+          <input class="clear" type="submit" value="Clear input">
+        </form>
 
 
-         </form>
-         </div>
-    </body>
+        <h4 id = display-name><strong>this is your Akan name:</strong></h4>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    
+
+  </body>
 </html>
+
