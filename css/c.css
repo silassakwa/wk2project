@@ -1,18 +1,15 @@
-body{
-    background-color: silver;
-    color:white;
-    padding: 0;
-    margin: 0;
-}
-.calc h1{
-    color: red;
-    text-align: center;
-
-}
-.calc
+.container
 {
-    width: 75%;
-    height:75%;
-    background-color: rosybrown;
-    margin: 0 auto;
+    width:75%;
+    height:500px;
+    background-color:#c0c0c0;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-left: 70px;;
+}
+h1{
+    color: #008080;
+}
+body{
+    color:#ff0000;
 }
