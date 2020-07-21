@@ -5,7 +5,7 @@
 {This website prompt for entry of date and returns Akan name}
 Project setup instructions
 To start using this project use the following commands:
-`git clone 'https://github.com/silassakwa/wk2project.git
+`git clone 'https://silassakwa.github.io/wk2project/
 visual studio code;.
 License info
 *{MIT.}*License
@@ -24,3 +24,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### License
 {MIT.}
 SILAS SAKWA
+https://silassakwa.github.io/wk2project/
+
